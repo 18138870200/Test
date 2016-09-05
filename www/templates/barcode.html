@@ -1,0 +1,42 @@
+<ion-view>
+    <ion-content class="barcode">
+
+        <div class="card card_barcode_top">
+            <div class="item item-text-wrap">
+                <ion-list class="barcode_list1">
+                    <ion-item class="ionItem hide_line ionItem1">
+                        <img ng-src="{{avatar}}">
+                        <span class="barcode_title">{{orgName}}</span>
+                        <span class="barcode_subtitle">邀请您关注中国移动10086服务号</span>
+                    </ion-item>
+                    <ion-item class="ionItem hide_line ionItem2">
+                        <span class="article_img">
+                            <img ng-src="{{wxWpUrl}}">
+                        </span>
+                    </ion-item>
+                    <ion-item class="ionItem hide_line ionItem3">
+                        <span ng-repeat="item in detailArr">{{item}}</span>
+                    </ion-item>
+                    <ion-item class="ionItem hide_line ionItem4">
+                        <span class="barcode_ad">尽在“中国移动10086”</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+
+        <div class="round roundLeft"></div>
+        <div class="round roundRight"></div>
+
+        <div class="card card_barcode_bottom">
+            <div class="item item-text-wrap">
+                <ion-list class="barcode_list2 ">
+                    <ion-item class="ionItem hide_line">
+                         <img src="../img/barcode.png">
+                        <span class="barcode_title">扫描或长按二维码前往公众号</span>
+                        <span class="barcode_subtitle">二维码有效期：{{beginTime|formateDateBarcode}}至{{endTime|formateDateBarcode}}</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,48 @@
+<ion-view >
+    <ion-content class="homePage" >
+        <ion-list>
+            <ion-item  class="ionItem1" ng-click="goPersonInfoPage()">
+                <img src="{{avatar}}" class="headerImage">
+                <label class="title">{{userName}}</label>
+                <label class="subtitle">{{position}}</label>
+                <img src="img/barcodeThumbnail.png" class="barcodeThumbnail">
+                <span class="ion-chevron-right"></span>
+            </ion-item>
+            <ion-item ng-click="goMyCurrencyPage()" class="ionItem2 ">
+                <label class="title">和微币账户余额</label>
+                <label class="money">{{balance | formatePrice}}</label>
+                <span class="ion-chevron-right"></span>
+            </ion-item>
+
+            <ion-item ui-sref="finishedMission " class="ionItem4 hide_line " ng-if="showIonItem4">
+                <div class="div1">
+                    <label>查看我完成的任务</label>
+                    <span class="ion-chevron-right"></span>
+                </div>
+                <div class="div2">
+                    <img src="img/chinaMobile.png" class="headerImage">
+                    <label class="title">{{newestTask.name}}</label>
+                    <label class="subtitle">任务完成</label>
+                    <label class="money">{{newestTask.goodsPrice | formatePrice}}</label>
+                    <label class="time" >{{newestTask.createdTime | formateDate}}</label>
+                </div>
+            </ion-item>
+
+
+            <ion-item class="ionItem5 hide_line"  ng-repeat='item in taskArr'>
+                <a ui-sref="missionDetail({taskid:item.id})">
+                    <div ng-class="{true: 'back1', false: 'back2'}[{{item.taskType}}==0]">
+                         <img  ng-class="{true: 'headerImage1', false: 'headerImage2'}[{{item.taskType}}==0]">
+                        <label class="title">{{item.name}}</label>
+                        <label class="subtitle">等待领取</label>
+                        <label class="money">{{item.goodsPrice|formatePrice}}</label>
+                    </div>
+                </a>
+            </ion-item>
+        </ion-list>
+
+        <ion-infinite-scroll on-infinite="loadMore()" distance="2%" ng-if="scroll">
+        </ion-infinite-scroll>
+        <div class="loadTip" ng-hide='scroll'>~我是有底线的~</div>
+    </ion-content>
+</ion-view>

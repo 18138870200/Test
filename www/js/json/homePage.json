@@ -1,0 +1,48 @@
+{
+    "taskArr": [{
+        "taskId":"1",
+        "taskName": "邀请关注服务号",
+        "taskState": "等待领取1",
+        "taskMoney":"&100"
+    }, {
+       "taskId":"2",
+        "taskName": "苹果手机品牌宣传推广",
+        "taskState": "等待领取2",
+        "taskMoney":"&200"
+    }, {
+        "taskId":"1",
+        "taskName": "邀请关注服务号",
+        "taskState": "等待领取3",
+        "taskMoney":"&200"
+    }, {
+       "taskId":"2",
+        "taskName": "苹果手机品牌宣传推广",
+        "taskState": "等待领取4",
+        "taskMoney":"&500"
+    }, {
+        "taskId":"2",
+        "taskName": "苹果手机品牌宣传推广",
+        "taskState": "等待领取5",
+        "taskMoney":"&400"
+    }, {
+        "taskId":"1",
+        "taskName": "邀请关注服务号",
+        "taskState": "等待领取6",
+        "taskMoney":"&100"
+    }, {
+        "taskId":"1",
+        "taskName": "邀请关注服务号",
+        "taskState": "等待领取7",
+        "taskMoney":"&100"
+    }, {
+        "taskId":"2",
+        "taskName": "苹果手机品牌宣传推广",
+        "taskState": "等待领取8",
+        "taskMoney":"&300"
+    }, {
+        "taskId":"1",
+        "taskName": "邀请关注服务号",
+        "taskState": "等待领取9",
+        "taskMoney":"&1100"
+    }]
+}

@@ -1,0 +1,1202 @@
+/*正在加载中loding样式*/
+
+.loading-container .loading {
+    padding: 0;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.spinnerBack {
+    background-color: white;
+    border-radius: 4px;
+    width: 110px;
+    height: 110px;
+}
+
+.spinnerBack span {
+    position: relative;
+    display: inline-block;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    color: gray;
+    top: 30px;
+}
+
+.spinner svg {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    stroke: #1054B1;
+    fill: #1054B1;
+    top: 25px;
+}
+
+
+/*首页样式*/
+
+.homePage .item-content {
+    height: 100%
+}
+
+.homePage span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    color: darkgray;
+}
+
+.homePage {
+    background-color: #F9F9F9;
+}
+
+.homePage .ionItem1 {
+    height: 90px;
+    padding: 0px;
+}
+
+.homePage .ionItem1 .headerImage {
+    height: 70px;
+    width: 70px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.homePage .ionItem1 .title {
+    position: absolute;
+    left: 90px;
+    top: 25px;
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+}
+
+.homePage .ionItem1 .subtitle {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    display: inline-block;
+    color: darkgray;
+    font-size: 12px;
+}
+
+.homePage .ionItem1 .barcodeThumbnail {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.homePage .ionItem2 {
+    height: 60px;
+    padding: 0px;
+}
+
+.homePage .ionItem2 .title {
+    display: inline-block;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    margin-top: -11px;
+    color: black;
+}
+
+.homePage .ionItem2 .money {
+    display: inline-block;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 25px;
+    color: black;
+}
+
+.homePage .ionItem4 {
+    padding: 0px;
+    height: 115px;
+}
+
+.homePage .ionItem4 .div1 {
+    position: relative;
+}
+
+.homePage .ionItem4 .div1 label {
+    color: black;
+}
+
+.homePage .ionItem4 .div1 span {
+    position: absolute;
+    right: -30px;
+}
+
+.homePage .ionItem4 .div2 {
+    position: relative;
+    height: 80px;
+}
+
+.homePage .ionItem4 .div2 .headerImage {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+
+.homePage .ionItem4 .div2 .title {
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    left: 55px;
+    font-size: 14px;
+}
+
+.homePage .ionItem4 .div2 .subtitle {
+    display: inline-block;
+    font-size: 14px;
+    color: dodgerblue;
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    font-size: 12px;
+}
+
+.homePage .ionItem4 .div2 .money {
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    top: 25px;
+    right: -30px;
+    font-size: 14px;
+}
+
+.homePage .ionItem4 .div2 .time {
+    display: inline-block;
+    font-size: 14px;
+    color: dodgerblue;
+    position: absolute;
+    top: 45px;
+    right: -30px;
+    font-size: 12px;
+}
+
+.homePage .ionItem4 .item-content {
+    background-color: #F9F9F9;
+}
+
+.homePage .ionItem5 {
+    padding: 10px 10px;
+    background-color: #F9F9F9;
+}
+
+.homePage .ionItem5 div {
+    height: 55px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.homePage .ionItem5 .back1 {
+    background-color: #0D6BC0;
+}
+
+.homePage .ionItem5 .back2 {
+    background-color: #7CA912;
+}
+
+.homePage .ionItem5 .headerImage1 {
+    background: url('../img/svg/iconfont-wechat.svg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    left: 25px;
+    top: 25px;
+    color: #1054B1;
+    border-radius: 11px;
+}
+
+.homePage .ionItem5 .headerImage2 {
+    background: url('../img/svg/pic.svg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    left: 25px;
+    top: 25px;
+    color: #1054B1;
+    border-radius: 11px;
+}
+
+.homePage .ionItem5 .title {
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    left: 55px;
+    top: 20px;
+    right: 70px;
+    overflow: hidden;
+}
+
+.homePage .ionItem5 .subtitle {
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    left: 55px;
+    top: 40px;
+}
+
+.homePage .ionItem5 .money {
+    position: absolute;
+    display: inline-block;
+    font-size: 18px;
+    top: 25px;
+    right: 20px;
+}
+
+.homePage .ionItem5 .item-content {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F9F9F9;
+}
+
+.homePage .hide_line {
+    border: none !important;
+}
+
+
+/*短信验证码样式*/
+
+a {
+    text-decoration: none;
+}
+
+.validation {
+    background-color: #F9F9F9;
+}
+
+.validation .topTips {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.validation .list {
+    margin-top: 15px;
+}
+
+.validation .inputVerifyCode {
+    width: 60%;
+    position: relative;
+}
+
+.validation .sendCode {
+    background-color: #F9F9F9;
+    border: none;
+    height: 45px;
+    color: #898989;
+    font-size: 14px;
+    width: 41%;
+    position: absolute;
+    right: 0px;
+    top: 48px;
+    border-bottom: 1px solid lightgray;
+}
+
+.validation .bindButton {
+    background-color: #A0CB32;
+    color: #ffffff;
+    width: 90%;
+    margin-left: 5%;
+    height: 45px;
+}
+
+.validation .tipLable {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #898989;
+}
+
+
+/*服务密码样式*/
+
+.servicePasswordBind {
+    background-color: #F9F9F9;
+}
+
+.servicePasswordBind .topTips {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.servicePasswordBind .list {
+    margin-top: 15px;
+}
+
+.servicePasswordBind .bindButton {
+    background-color: #A0CB32;
+    color: #ffffff;
+    width: 90%;
+    margin-left: 5%;
+    height: 45px;
+}
+
+.servicePasswordBind .tipLable {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #898989;
+}
+
+
+/*个人信息样式*/
+
+.person_info {
+    background-color: #F9F9F9;
+}
+
+.person_info .item_title {
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    top: 50%;
+    left: 15px;
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.person_info .subTitle {
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    top: 50%;
+    right: 15px;
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.person_info span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    color: darkgray;
+}
+
+.person_info ion-item {
+    height: 50px;
+}
+
+.person_info .ionItem1 {
+    height: 100px;
+}
+
+.person_info .item-content {
+    height: 100%;
+}
+
+.person_info .sex {
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    top: 50%;
+    right: 25px;
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.person_info .mybarcode {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    right: 25px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.person_info .headerImage {
+    position: absolute;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    right: 25px;
+    top: 50%;
+    margin-top: -35px;
+    border-radius: 35px;
+}
+
+.person_info .ionItem7 {
+    margin-top: 15px;
+}
+
+.person_info .hide_line {
+    border: none !important;
+}
+
+
+/*个人账户样式*/
+
+.my_currency {
+    background-color: #0D6BC0;
+}
+
+.my_currency label {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
+.my_currency .label1 {
+    font-size: 45px;
+    top: 80px;
+}
+
+.my_currency .label2 {
+    top: 140px;
+    font-size: 12px;
+}
+
+.my_currency .mid_line {
+    position: absolute;
+    display: block;
+    top: 250px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    height: 0.5px;
+    left: 15px;
+    right: 15px;
+}
+
+.my_currency .label3 {
+    top: 290px;
+    font-size: 14px;
+}
+
+.my_currency .label4 {
+    top: 320px;
+    font-size: 12px;
+    width: 90%;
+    left: 5%;
+}
+
+
+/*任务详情样式*/
+
+.missionDetail {
+    background-color: #F9F9F9;
+}
+
+.missionDetail .hide_line {
+    border: none !important;
+}
+
+.missionDetail .card {
+    margin: 15px 15px;
+}
+
+.missionDetail .ionItem_top {
+    height: 80px;
+}
+
+.missionDetail .ionItem_top .headerImage {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -15px;
+    height: 30px;
+    width: 30px;
+    left: 15px;
+}
+
+.missionDetail .ionItem_top .title {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    left: 55px;
+    top: 50%;
+    margin-top: -10px;
+    right: 70px;
+    overflow: hidden;
+}
+
+.missionDetail.ionItem_top .subtitle {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    left: 55px;
+    bottom: 15px;
+}
+
+.missionDetail .ionItem_top .money {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px;
+    color: #BF1E28;
+}
+
+.missionDetail .detail_list .ionItem {
+    padding: 5px;
+}
+
+.missionDetail .detail_list .detai_name {
+    font-size: 14px;
+    color: gray;
+}
+
+.missionDetail .detail_list .detai_contentText {
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.missionDetail taskStrategy_list {}
+
+.missionDetail .taskStrategy_list .ionItem {
+    padding: 5px;
+}
+
+.missionDetail .task_content {
+    color: black;
+    font-size: 14px;
+}
+
+.missionDetail .card_service p {
+    color: #F1950B;
+    display: inline-block;
+}
+
+.missionDetail .card_service img {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    top: 16px;
+}
+
+./*missionDetail .card_article {
+    margin-bottom: 50px;
+}*/
+
+.missionDetail .card_article .article_title {
+    color: black;
+    font-size: 14px;
+}
+
+.missionDetail .card_article .article_img {
+    width: 100%;
+    height: 0;
+    box-sizing: border-box;
+    padding: 25% 0;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.missionDetail .card_article .article_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightGray;
+    border-radius: 8px;
+}
+
+.missionDetail .card_article .ionItem {
+    padding: 5px;
+}
+
+.missionDetail .card_article .article_summary {
+    font-size: 14px;
+}
+
+.missionDetail .card_article .open_detail {
+    font-size: 14px;
+    color: #F1950B;
+}
+
+.missionDetail .edge{
+    height: 20px;
+}
+
+/*二维码分享页面样式*/
+
+.barcode {
+    background-color: #1F6BFE;
+}
+
+.barcode .hide_line {
+    border: none !important;
+}
+
+.barcode .card {
+    margin: 15px 15px;
+}
+
+.barcode .card_barcode_top {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+}
+
+.barcode .barcode_list1 .ionItem1 {
+    padding: 15px 0px;
+}
+
+.barcode .barcode_list1 .ionItem1 img {
+    position: relative;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: lightGray;
+    border-radius: 25px;
+}
+
+.barcode .barcode_list1 .ionItem1 .barcode_title {
+    display: inline-block;
+    position: absolute;
+    left: 65px;
+    color: black;
+    font-size: 16px;
+    top: 23px;
+}
+
+.barcode .barcode_list1 .ionItem1 .barcode_subtitle {
+    display: inline-block;
+    position: absolute;
+    left: 65px;
+    top: 45px;
+    color: #BABAD0;
+    font-size: 12px;
+}
+
+.barcode .barcode_list1 .ionItem2 {
+    padding: 0px;
+}
+
+.barcode .barcode_list1 .ionItem2 span {
+    width: 56%;
+    height: 0;
+    box-sizing: border-box;
+    padding: 28% 0;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    left: 22%;
+}
+
+.barcode .barcode_list1 .ionItem2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightGray;
+}
+
+.barcode .barcode_list1 .ionItem3 span {
+    position: relative;
+    display: block;
+    left: 19%;
+    font-size: 12px;
+    color: #A2A2B4;
+}
+
+.barcode .barcode_list1 .ionItem4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.barcode .barcode_list1 .ionItem4 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #1F6BFE;
+    left: 22%;
+}
+
+.barcode .round {
+    position: absolute;
+    background-color: #1F6BFE;
+    width: 15px;
+    height: 15px;
+    z-index: 10;
+    margin-top: -7px;
+    border-radius: 8px;
+}
+
+.barcode .roundLeft {
+    left: 8px;
+}
+
+.barcode .roundRight {
+    right: 8px;
+}
+
+.barcode .card_barcode_bottom {
+    margin-top: 0px;
+    border-radius: 4px;
+}
+
+.barcode .card_barcode_bottom .item {
+    background-color: #EAF2FF;
+    padding: 0 20px;
+}
+
+.barcode .barcode_list2 .ionItem {
+    padding: 15px 0px;
+}
+
+.barcode .barcode_list2 img {
+    position: relative;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.barcode .barcode_list2 .barcode_title {
+    display: inline-block;
+    position: absolute;
+    left: 55px;
+    color: #8C94BD;
+    font-size: 16px;
+    top: 16px;
+}
+
+.barcode .barcode_list2 .barcode_subtitle {
+    display: inline-block;
+    position: absolute;
+    left: 55px;
+    top: 40px;
+    color: #BABAD0;
+    font-size: 12px;
+}
+
+@media screen and (max-width:330px) {
+    .barcode .barcode_list2 .barcode_title {
+        font-size: 14px;
+    }
+    .barcode .barcode_list2 .ionItem {
+        height: 90px;
+    }
+}
+
+
+/*已完成任务列表样式*/
+
+.bgColor {
+    background-color: #f9f9f9;
+    margin-top: 60px;
+}
+
+.listTop,
+.dropdown__item {
+    width: 100%;
+    height: 60px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0 16px;
+    background-color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.listTop {
+    margin-top: 0px;
+}
+
+.dropdown__item:after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+}
+
+.dropdown__item {
+    position: relative;
+}
+
+.listTop__icon {
+    position: relative;
+    float: right;
+    padding: 0 0 0 30px;
+    top: 15px;
+}
+
+.missionItemBox {
+    padding: 0;
+    background-color: #F9F9F9;
+    border: none;
+}
+
+.missionItemBox__left {
+    border: none;
+    background-color: transparent;
+}
+
+
+/*a标签点击时的颜色设置*/
+
+a.activated {
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+.item .missionItemBox__top {
+    height: 18px;
+    font-size: 14px;
+    color: black;
+    line-height: 18px;
+}
+
+.missionItemBox__topL,
+.missionItemBox__bottomL {
+    float: left;
+}
+
+.missionItemBox__topR,
+.missionItemBox__bottomR {
+    float: right;
+}
+
+.item .missionItemBox__bottom {
+    height: 18px;
+    font-size: 12px;
+    color: #1054B1;
+    line-height: 18px;
+}
+
+.loadTip {
+    padding: 8px 0 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;
+}
+
+.dropdownBox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.dropdownList {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+
+/*ngAnimate CSS3 的方式(1):*/
+
+
+/*支持的指令if,view,repeat,include,swtich */
+
+.dropdownBox.ng-enter {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdownBox.ng-enter-active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdownBox.ng-leave {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdownBox.ng-leave-active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdownBox.ng-enter .dropdownList {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+}
+
+.dropdownBox.ng-enter-active .dropdownList {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.dropdownBox.ng-leave .dropdownList {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.dropdownBox.ng-leave-active .dropdownList {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+}
+
+
+/*ngAnimate CSS3 的方式(2):*/
+
+
+/*支持的指令class,show,hide,model */
+
+
+/*.dropdownBox.ng-hide-add{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.dropdownBox.ng-hide-add-active {
+    background-color: rgba(0, 0, 0, 0);
+}
+.dropdownBox.ng-hide-remove {
+    background-color: rgba(0, 0, 0, 0);
+}
+.dropdownBox.ng-hide-remove-active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdownBox.ng-hide-add .dropdownList{
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+.dropdownBox.ng-hide-add-active .dropdownList{
+     transform: translate3d(0,-100%,0);
+    -webkit-transform: translate3d(0,-100%,0);
+   
+}
+.dropdownBox.ng-hide-remove .dropdownList{
+     transform: translate3d(0,-100%,0);
+    -webkit-transform: translate3d(0,-100%,0);
+}
+.dropdownBox.ng-hide-remove-active .dropdownList{
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+*/
+
+
+/*测试测试*/
+
+#top_wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#backButton {
+    position: relative;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+}
+
+#cartButton {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 35px;
+    height: auto;
+    background-color: blue;
+    float: right;
+}
+
+#goDownload {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+#goDownload .back_godownload {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#goDownload .close_godownload {
+    position: absolute;
+    display: block;
+    left: 15px;
+    top: 30px;
+    width: 28px;
+    height: 28px;
+}
+
+#goDownload .logo_godownload {
+    position: absolute;
+    display: block;
+    left: 58px;
+    top: 12px;
+    width: 64px;
+    height: 64px;
+}
+
+#goDownload .name_godownload {
+    position: absolute;
+    display: block;
+    left: 132px;
+    top: 12px;
+    width: 80px;
+    height: 18px;
+    color: white;
+    font-size: 17px;
+}
+
+#goDownload .subname_godownload {
+    position: absolute;
+    display: block;
+    left: 132px;
+    top: 37px;
+    right: 65px;
+    height: 12px;
+    color: white;
+    font-size: 10px;
+}
+
+#goDownload .goDownloadButton {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 65px;
+    height: 34px;
+    font-size: 17px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 4px;
+    margin: 20px 0 20px 150px;
+}
+
+.layer_hint {
+    position: fixed;
+    width: 320px;
+    height: 290px;
+    left: 50%;
+    top: 50%;
+    margin-top: -145px;
+    margin-left: -160px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 3010;
+    display: none;
+}
+
+.layer_hint img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.layer_bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0px;
+    top: 0px;
+    z-index: 3009;
+    display: none;
+}
+
+.layer_hint p {
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.layer_hint .head {
+    display: block;
+    text-align: center;
+    color: #000;
+    margin: 0px auto;
+    height: 65%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(/Content/Lottery/images/red_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
+}
+
+.layer_hint .head img {
+    width: 50%;
+}
+
+.layer_hint .msg {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    color: #000;
+    margin: 0px auto;
+    height: 15%;
+}
+
+.layer_hint .flow {
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin: 5px auto;
+}
+
+.layer_hint a {
+    display: inline-block;
+    text-align: center;
+    background: #dd3f3f;
+    color: #fff;
+    margin: 0px 3px;
+    border-radius: 5px;
+    line-height: 260%;
+    width: 110px;
+}

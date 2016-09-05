@@ -1,0 +1,63 @@
+<ion-view>
+    <ion-content class="missionDetail">
+        <ion-list>
+            <ion-item class="ionItem_top">
+                <div class="back">
+                    <img ng-src="{{myVar}}" class="headerImage">
+                    <label class="title">{{missionName}}</label>
+                    <label class="money">{{balance}}</label>
+                </div>
+            </ion-item>
+        </ion-list>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <ion-list class="detail_list ">
+                    <ion-item class="ionItem hide_line" ng-repeat='item in detailArr'>
+                        <span class="detai_name">{{item.name}}</span>
+                        <span class="detai_contentText">{{item.contentText}}</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <ion-list class="taskStrategy_list ">
+                    <ion-item class="ionItem hide_line " ng-repeat='item in taskStrategyArr'>
+                        <span class="task_content">{{item}}</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+     
+        <div class="card card_service" ng-if="servicePage">
+            <div class="item item-text-wrap" ng-click="goNext()">
+                <p >点击生成邀请二维码图片</p>
+                <img src="../img/barcodeThumbnail.png">
+            </div>
+        </div>
+
+         <div class="card card_article" ng-if="articlePage">
+            <div class="item item-text-wrap">
+                <ion-list class="article_list ">
+                    <ion-item class="ionItem hide_line">
+                        <span class="article_title">{{articleTitle}}</span>
+                    </ion-item>
+                      <ion-item class="ionItem hide_line">
+                        <span class="article_img">
+                            <img src="{{articleImg}}">
+                        </span>
+                    </ion-item>
+                      <ion-item class="ionItem hide_line">
+                        <span class="article_summary">{{articleSummary}}</span>
+                    </ion-item>
+                      <ion-item class="ionItem hide_line" ng-click="goNext()">
+                        <span class="open_detail">点击打开物料详情，按任务攻略操作赚和微币</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+        <div class="edge"></div>
+
+    </ion-content>
+</ion-view>

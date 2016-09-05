@@ -1,0 +1,53 @@
+<ion-view >
+    <ion-content class="person_info">
+        <ion-list>
+   
+            <ion-item  class="ionItem1" ngf-select ng-model="data.file" name="fileData" ngf-pattern="'image/*'" ngf-multiple="false">
+                <label class="item_title">头像</label>
+                <img class="headerImage"  ngf-src="avatar">
+                <span class="ion-chevron-right"></span>
+            </ion-item>
+
+            <ion-item class="ionItem2">
+                <label class="item_title">昵称</label>
+                <label class="subTitle">{{wechatNickname | isNull}}</label>
+            </ion-item>
+
+            <ion-item  class="ionItem3 ">
+                <label class="item_title">手机号</label>
+                <label class="subTitle">{{phone | isNull}}</label>
+            </ion-item>
+
+            <ion-item class="ionItem4" >
+                <label class="item_title">姓名</label>
+                <label class="subTitle">{{name | isNull}}</label>
+            </ion-item>
+
+            <ion-item class="ionItem5" ng-click="showSexSelectActionSheet()">
+                <label class="item_title">性别</label>
+                <label class="sex">{{sex}}</label>
+                <span class="ion-chevron-right"></span>
+            </ion-item>
+
+            <ion-item ui-sref="barcode" class="ionItem6" ng-if="haveWxQrCode">
+                <label class="item_title">我的二维码</label>
+                <img src="../img/barcodeThumbnail.png" class="mybarcode">
+                <span class="ion-chevron-right"></span>
+            </ion-item>
+
+
+            <ion-item class="ionItem7 hide_line" >
+                <label class="item_title">企业名称</label>
+                <label class="subTitle">{{orgName | isNull}}</label>
+            </ion-item>
+
+            <ion-item class="ionItem8" >
+                <label class="item_title">角色</label>
+                <label class="subTitle">{{roleName | isNull}}</label>
+            </ion-item>
+
+        </ion-list >
+
+
+    </ion-content>
+</ion-view>

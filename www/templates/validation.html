@@ -1,0 +1,29 @@
+<ion-view>
+    <ion-content class="validation">
+        <button class="button button-full button-positive topTips">
+            用户您好，欢迎光临粉丝俱乐部！请先绑定账号
+        </button>
+        <div class="list">
+            <form name="loginForm">
+                <label class="item item-input">
+                    <input type="text" name="phone" ng-model="obj.phone" placeholder="请输入您的手机号码" ng-maxlength="11" ng-minlength="11" required/>
+                </label>
+                <!--  <span class="errorSpan" ng-show="loginForm.phone.$error.required">请输入手机号码</span>
+                <span class="errorSpan" ng-show="loginForm.phone.$error.maxlength">请输入11位手机号</span> -->
+                <label class="item item-input inputVerifyCode">
+                    <input type="text" ng-model="obj.VerifyCode" placeholder="请输入验证码" required/>
+                </label>
+                <button class="sendCode" ng-click="getVerifyCode()" ng-disabled="paraevent|| loginForm.phone.$error.maxlength||loginForm.phone.$error.minlength   ">
+                    {{paracont}}
+                </button>
+            </form>
+        </div>
+        <button class="button button-block bindButton" ng-disabled="loginForm.$invalid"  ng-click="bindPhoneCode()">
+            绑 定
+        </button>
+        <a  ng-click="goServicePasswordBind()">
+            <label class="tipLable">使用服务密码进行绑定</label>
+        </a>
+        
+    </ion-content>
+</ion-view>

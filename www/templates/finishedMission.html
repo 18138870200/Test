@@ -1,0 +1,37 @@
+<ion-view>
+	<div class="listTop bar-subheader">
+		所有任务
+		<img src="../img/select.png" class="listTop__icon" ng-click="showDropdown()">
+		<!-- <i class="icon ion-ios-chatboxes listTop__icon" ng-click="showDropdown()"></i> -->
+	</div>
+	<ion-content class='bgColor'>
+
+		<ion-list class='missionList'>
+			<ion-item class='missionItemBox' ng-repeat='item in missionArr'>
+				<div class="list ">
+					<a class="item item-avatar missionItemBox__left" >
+						<img src="../img/chinaMobile.png">
+						<h2 class='missionItemBox__top'>
+							<span class='missionItemBox__topL'>{{item.name}}</span>
+							<span class='missionItemBox__topR'>{{item.goodsPrice | formatePrice}}</span>
+						</h2>
+						<p class='missionItemBox__bottom'>
+							<span class='missionItemBox__bottomL'>任务完成</span>
+							<span class='missionItemBox__bottomR'>{{item.createdTime | formateDate}}</span>
+						</p>
+					</a>
+
+				</div>
+			</ion-item>
+		</ion-list>
+		<ion-infinite-scroll on-infinite="loadMore()" distance="2%" ng-if="scroll" >
+		</ion-infinite-scroll>
+		<div class="loadTip" ng-hide='scroll'>没有更多信息~</div>
+	</ion-content>
+	<div class="dropdownBox" ng-if="isIn" ng-click="showDropdown()">
+		<div class="dropdownList">
+			<div class="dropdown__item" ng-click='filtered()'>所有任务</div>
+			<div class="dropdown__item" ng-click='filtered("{{one}}")' ng-repeat='one in titleArr'>{{one}}</div>
+		</div>
+	</div>
+</ion-view>

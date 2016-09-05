@@ -1,0 +1,33 @@
+{
+    "missionDetailInfo": [{
+        "name": "发布者:",
+        "contentText": "中移在线服务有限公司总公司"
+    }, {
+        "name": "任务时间:",
+        "contentText": "2016-07-10 至 2019-08-10"
+    }, {
+        "name": "奖品数量: ",
+        "contentText": "不限/领完为止"
+    }, {
+        "name": "适用人群:",
+        "contentText": "分公司员工"
+    }, {
+        "name": "任务限次:",
+        "contentText": "不限次数"
+    }],
+    "strategyService":["任务攻略",
+            "1、打开下面的物料，会生成专属的邀请二维码；",
+            "2、将二维码图片分享到朋友圈或者好友",
+            "3、被邀请人扫描二维码并关注服务号，任务完成"
+        ],
+    "strategyArticl":["任务攻略",
+            "1、分享下面的物料至微信朋友圈或好友；",
+            "2、好友打开分享的链接，任务完成"
+        ],
+    "missionName":"中移在线公众服务号推广",
+    "missionMoney":"1220和微币",
+    "pageId":"3",
+    "articleTitle":"VIVO X7 不止美颜拍照",
+    "articleSummary":"VIVo X7采用超窄边框设计，高屏占比带来近乎曲面屏般的视觉延展，腰线处高光切边，带来错手感觉",
+    "articleImg":"../img/图片.jpg"
+}
